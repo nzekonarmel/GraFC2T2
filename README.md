@@ -152,7 +152,6 @@ and has a name of the form "GraFC2T2-RESULTS-1547812182.txt"
 where 1547812182 is the creation timestamp of the file.       
 
 For the example described in this readme, the results file contains :
-'''
 
     ----> STG-CIU-LDF-IT-Alpha-0.9-Delta-180-Beta-0.3-T0-180-K-5-Gamma-0.3
     prec@10 = 0.00963636363636
@@ -166,7 +165,6 @@ For the example described in this readme, the results file contains :
     map@10 = 0.0294473304473
     hr@10 = 0.101818181818
 
-'''
 
 
 
@@ -174,14 +172,14 @@ For the example described in this readme, the results file contains :
 
 If you use this code for your paper, please cite :
 
-The link: 
-"https://github.com/nzekonarmel/GraFC2T2"
+    The link: 
+    "https://github.com/nzekonarmel/GraFC2T2"
 
-The paper :
-@inproceedings{nzeko2017time,
-  title={Time Weight Content-Based Extensions of Temporal Graphs for Personalized Recommendation},
-  author={Nzekon Nzeko'o, Armel Jacques and Tchuente, Maurice and Latapy, Matthieu},
-  booktitle={WEBIST 2017-13th International Conference on Web Information Systems and Technologies},
-  year={2017}
-}
+    The paper :
+    @inproceedings{nzeko2017time,
+      title={Time Weight Content-Based Extensions of Temporal Graphs for Personalized Recommendation},
+      author={Nzekon Nzeko'o, Armel Jacques and Tchuente, Maurice and Latapy, Matthieu},
+      booktitle={WEBIST 2017-13th International Conference on Web Information Systems and Technologies},
+      year={2017}
+    }
 
