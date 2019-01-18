@@ -1734,6 +1734,8 @@ def main(rs_list, linkstream, trust_network, eval_metric, number_of_time_slices)
             recsys_results_file_save.write(line)
     recsys_results_file_save.close()
     
+    shutil.rmtree(out, ignore_errors=True)
+    
     print "END :",savefile        
     
 
