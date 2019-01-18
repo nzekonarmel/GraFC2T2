@@ -188,7 +188,7 @@ The link:
     
     "https://github.com/nzekonarmel/GraFC2T2"
 
-The paper :
+The paper:
     
     @inproceedings{nzeko2017time,
       title={Time Weight Content-Based Extensions of Temporal Graphs for Personalized Recommendation},
