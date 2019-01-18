@@ -120,6 +120,7 @@ Open the launch.py ​​file and configure as following:
 9- Configure the recommendation graphs that you want to run simultaneously
        
     """
+    
     It is possible to configure several recommender graphs
     In this example, two recommender graphs are configurated 
 
@@ -139,7 +140,9 @@ Open the launch.py ​​file and configure as following:
     K : decay slope of LDF    {0.1, 0.5, 1, 5, 10, 50, 100}
     Gamma : influence of trusted users    {0.05, 0.1, 0.15, 0.3, 0.5, 0.7, 0.9}         
     Alpha : damping factor for PageRank    {0.05, 0.1, 0.15, 0.3, 0.5, 0.7, 0.9}
+    
     """
+    
     rs1_param = {
         "graph":"BIP", "content":"CIU", "time":"EDF", "trust":"IT", 
         "delta":0, "beta":0, "t0":180, "k":0, "gamma":0.9, "alpha":0.9
@@ -181,10 +184,12 @@ For the example described in this readme, the results file contains :
 
 If you use this code for your paper, please cite :
 
-    The link: 
+The link: 
+    
     "https://github.com/nzekonarmel/GraFC2T2"
 
-    The paper :
+The paper :
+    
     @inproceedings{nzeko2017time,
       title={Time Weight Content-Based Extensions of Temporal Graphs for Personalized Recommendation},
       author={Nzekon Nzeko'o, Armel Jacques and Tchuente, Maurice and Latapy, Matthieu},
