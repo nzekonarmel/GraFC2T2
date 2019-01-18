@@ -11,12 +11,12 @@ and uses personalized PageRank on this graph to perform recommendation.
 
 ## Requirements
 
-python          2.7.14  https://www.python.org/downloads/release/python-2714/
-numpy           1.13.3  http://www.numpy.org/
-networkx        2.0     https://networkx.github.io/documentation/stable/install.html
-scikit-learn    0.19.1  https://sklearn.org/
-scipy           0.19.1  https://libraries.io/pypi/scipy/0.19.1
-
+    python          2.7.14  https://www.python.org/downloads/release/python-2714/
+    numpy           1.13.3  http://www.numpy.org/
+    networkx        2.0     https://networkx.github.io/documentation/stable/install.html
+    scikit-learn    0.19.1  https://sklearn.org/
+    scipy           0.19.1  https://libraries.io/pypi/scipy/0.19.1
+    
 
 
 ## Datasets
@@ -33,23 +33,23 @@ user_id; trusted_user_id
 
 Epinions data statistics
 ------------------------
-start date: 2010-01-01
-End date:   2010-12-31
-Users:      1999
-Items:      24861
-Contents:   24
-ratings:    28399
-trust:      5529
+    start date: 2010-01-01
+    End date:   2010-12-31
+    Users:      1999
+    Items:      24861
+    Contents:   24
+    ratings:    28399
+    trust:      5529
 
 Ciao data statistics
 --------------------
-start date: 2007-01-01
-End date:   2010-12-31
-Users:      890
-Items:      9084
-Contents:   6
-ratings:    12753
-trust:      23398
+    start date: 2007-01-01
+    End date:   2010-12-31
+    Users:      890
+    Items:      9084
+    Contents:   6
+    ratings:    12753
+    trust:      23398
 
 
 
@@ -69,9 +69,9 @@ examples: "prec@10", "recall@30", "map@20", "hr@15", "mrr@50"
 
 ## Deployment
 
-Put the framework.py and launch.py files in the same folder.
+Put the framework.py and launch.py ​​files in the same folder.
 
-Open the launch.py file and configure as following:
+Open the launch.py ​​file and configure as following:
 
     1- Path to the dataset
        # File that contains link stream data {(u, i, r, c, t)}
@@ -147,24 +147,24 @@ Open the launch.py file and configure as following:
        save change and close the file launch.py 
        then run the command  " python launch.py "
 
-The results file is in the same folder as the framework.py and launch.py files, 
+The results file is in the same folder as the framework.py and launch.py ​​files, 
 and has a name of the form "GraFC2T2-RESULTS-1547812182.txt" 
 where 1547812182 is the creation timestamp of the file.       
 
 For the example described in this readme, the results file contains :
 '''
 
-----> STG-CIU-LDF-IT-Alpha-0.9-Delta-180-Beta-0.3-T0-180-K-5-Gamma-0.3
-prec@10 = 0.00963636363636
-recall@10 = 0.0429149797571
-map@10 = 0.0276829004329
-hr@10 = 0.0854545454545
-
-----> BIP-CIU-EDF-IT-Alpha-0.9-T0-180-Gamma-0.3
-prec@10 = 0.0116363636364
-recall@10 = 0.0518218623482
-map@10 = 0.0294473304473
-hr@10 = 0.101818181818
+    ----> STG-CIU-LDF-IT-Alpha-0.9-Delta-180-Beta-0.3-T0-180-K-5-Gamma-0.3
+    prec@10 = 0.00963636363636
+    recall@10 = 0.0429149797571
+    map@10 = 0.0276829004329
+    hr@10 = 0.0854545454545
+    
+    ----> BIP-CIU-EDF-IT-Alpha-0.9-T0-180-Gamma-0.3
+    prec@10 = 0.0116363636364
+    recall@10 = 0.0518218623482
+    map@10 = 0.0294473304473
+    hr@10 = 0.101818181818
 
 '''
 
