@@ -190,10 +190,10 @@ The link:
 
 The paper:
     
-    @inproceedings{nzeko2017time,
-      title={Time Weight Content-Based Extensions of Temporal Graphs for Personalized Recommendation},
-      author={Nzekon Nzeko'o, Armel Jacques and Tchuente, Maurice and Latapy, Matthieu},
-      booktitle={WEBIST 2017-13th International Conference on Web Information Systems and Technologies},
-      year={2017}
+    @article{nzekon2019general,
+        title={A general graph-based framework for top-N recommendation using content, temporal and trust information},
+        author={Nzekon Nzeko'o, Armel Jacques and Tchuente, Maurice and Latapy, Matthieu},
+        journal={Journal of Interdisciplinary Methodologies and Issues in Sciences},
+        year={2019},
+        publisher={Episciences.org}
     }
-
